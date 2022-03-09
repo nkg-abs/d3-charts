@@ -1,9 +1,5 @@
-import { React } from 'react';
-import './App.scss';
+import LineChart from './components/lineChart';
 
-const App = () =>
-	<div className="App" role="App">
-		Ready to start.
-	</div>;
+const App = () =>	LineChart();
 
 export default App;
