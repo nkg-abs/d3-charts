@@ -1,5 +1,12 @@
-import LineChart from './components/lineChart';
+import React from 'react';
+import barChart from './components/barChart';
 
-const App = () =>	LineChart();
+const App = () =>
+	<div>
+		{
+			barChart()
+		}
+	</div>
+	;
 
 export default App;
